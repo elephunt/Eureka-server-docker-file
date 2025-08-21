@@ -85,7 +85,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <configuration>
                     <image>
-                        <name>euruka-server:${git.commit.id.full}</name>
+                        <name>euruka-server:${git.commit.id.abbrev}</name>
                     </image>
                 </configuration>
                 <artifactId>spring-boot-maven-plugin</artifactId>
